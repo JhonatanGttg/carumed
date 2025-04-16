@@ -35,7 +35,7 @@ CaruMed é um aplicativo móvel desenvolvido com React Native e Expo, projetado 
 
 1. Clone o repositório:
 ```bash
-git clone [URL_DO_REPOSITÓRIO]
+git clone (https://github.com/JhonatanGttg/carumed)
 cd carumed
 ```
 
