@@ -101,10 +101,6 @@ Para contribuir com o projeto:
 
 Encontrou um bug ou tem uma sugestão? Por favor, abra uma issue descrevendo o problema ou a sugestão em detalhes.
 
-## 📞 Suporte
-
-Para suporte, entre em contato através de [CONTATO].
-
 ---
 
-Desenvolvido com ❤️ pela equipe CaruMed 
+Desenvolvido com ❤️ pela equipe CaruMed
