@@ -1,50 +1,110 @@
-# Welcome to your Expo app 👋
+# CaruMed 🏥
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+CaruMed é um aplicativo móvel desenvolvido com React Native e Expo, projetado para facilitar o gerenciamento e acompanhamento de cuidados médicos.
 
-## Get started
+## 🚀 Tecnologias Utilizadas
 
-1. Install dependencies
+- [React Native](https://reactnative.dev/) - Framework para desenvolvimento mobile
+- [Expo](https://expo.dev/) - Plataforma para desenvolvimento React Native
+- [TypeScript](https://www.typescriptlang.org/) - Linguagem de programação
+- [React Navigation](https://reactnavigation.org/) - Navegação
+- [Expo Router](https://docs.expo.dev/router/introduction/) - Sistema de roteamento
+- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/) - Armazenamento local
+- [Expo Notifications](https://docs.expo.dev/versions/latest/sdk/notifications/) - Sistema de notificações
+- [Expo Local Authentication](https://docs.expo.dev/versions/latest/sdk/local-authentication/) - Autenticação local
 
-   ```bash
-   npm install
-   ```
+## 📱 Funcionalidades
 
-2. Start the app
+- Interface de usuário moderna e intuitiva
+- Suporte a temas claro e escuro (modo automático)
+- Compatível com iOS e Android
+- Suporte a tablets (iOS)
+- Sistema de autenticação local
+- Sistema de notificações
+- Armazenamento local de dados
 
-   ```bash
-    npx expo start
-   ```
+## 🛠️ Pré-requisitos
 
-In the output, you'll find options to open the app in a
+- Node.js (versão recomendada: >= 14.x)
+- npm ou yarn
+- Expo CLI
+- iOS Simulator (para desenvolvimento iOS)
+- Android Studio e Android SDK (para desenvolvimento Android)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## ⚙️ Como Instalar
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. Clone o repositório:
 ```bash
-npm run reset-project
+git clone [URL_DO_REPOSITÓRIO]
+cd carumed
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Instale as dependências:
+```bash
+npm install
+# ou
+yarn install
+```
 
-## Learn more
+3. Inicie o projeto:
+```bash
+npm start
+# ou
+yarn start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📝 Scripts Disponíveis
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- `npm start` - Inicia o servidor de desenvolvimento Expo
+- `npm run android` - Inicia o app no Android
+- `npm run ios` - Inicia o app no iOS
+- `npm run web` - Inicia o app na versão web
+- `npm run test` - Executa os testes
+- `npm run lint` - Executa a verificação de lint
+- `npm run reset-project` - Reseta o projeto (limpa caches e node_modules)
 
-## Join the community
+## 📱 Executando no Dispositivo
 
-Join our community of developers creating universal apps.
+1. Instale o aplicativo Expo Go no seu dispositivo:
+   - [Android Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent)
+   - [iOS App Store](https://apps.apple.com/app/expo-go/id982107779)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+2. Escaneie o QR Code que aparece no terminal após executar `npm start`
+
+## 🏗️ Estrutura do Projeto
+
+```
+carumed/
+├── app/             # Arquivos de rotas e telas
+├── assets/          # Recursos estáticos (imagens, fontes)
+├── components/      # Componentes React reutilizáveis
+├── constants/       # Constantes e configurações
+├── hooks/          # Hooks personalizados
+├── utils/          # Funções utilitárias
+└── scripts/        # Scripts de automação
+```
+
+## 📄 Licença
+
+Este projeto é privado e proprietário. Todos os direitos reservados.
+
+## 👥 Contribuição
+
+Para contribuir com o projeto:
+
+1. Crie um branch para sua feature
+2. Faça commit das suas alterações
+3. Push para o branch
+4. Crie um Pull Request
+
+## 🐛 Reportando Problemas
+
+Encontrou um bug ou tem uma sugestão? Por favor, abra uma issue descrevendo o problema ou a sugestão em detalhes.
+
+## 📞 Suporte
+
+Para suporte, entre em contato através de [CONTATO].
+
+---
+
+Desenvolvido com ❤️ pela equipe CaruMed 
